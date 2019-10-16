@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../../image/bg-body.png);
+  background-size: 100%;
+  color: #FFF; }
+
+.login-box {
+  height: 385px;
+  width: 298px;
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3%; }
+  .login-box .head {
+    background: #555da2;
+    border-top: 1px solid #8286ca;
+    border-bottom: 1px solid #423979;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px; }
+    .login-box .head span {
+      display: block;
+      text-align: center;
+      margin-top: 7%; }
+  .login-box .form {
+    padding: 10% 9% 3% 9%;
+    border: 1px solid rgba(255, 255, 255, 0.2); }
+    .login-box .form label {
+      font: 16px 'Proxima Nova Rg', sans-serif; }
+    .login-box .form input {
+      font: 16px 'Proxima Nova Rg', sans-serif;
+      color: #fff;
+      width: 100%;
+      height: 59px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 3% 0 7% 0;
+      padding: 4%;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.3); }
+      .login-box .form input:focus {
+        background: rgba(255, 255, 255, 0.4);
+        border-top: 1 px solid #938895;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+    .login-box .form .bottom {
+      font: 14px 'Skolar PE Rg', sans-serif;
+      display: block;
+      text-align: center;
+      margin-bottom: 4%; }
+
+.icons {
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  height: 59px;
+  padding-top: 4%;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px; }
+  .icons li {
+    display: inline; }
+    .icons li .tw {
+      background: url(../../image/icons.png) no-repeat -20px -106px;
+      width: 32px;
+      height: 33px;
+      display: inline-block;
+      text-decoration: none; }
+    .icons li .gl {
+      background: url(../../image/icons.png) no-repeat -20px -53px;
+      width: 32px;
+      height: 33px;
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 15% 0; }
+    .icons li .fb {
+      background: url(../../image/icons.png) no-repeat -20px 0;
+      width: 32px;
+      height: 33px;
+      display: inline-block;
+      text-decoration: none; }
+
+input::placeholder {
+  font: 16px 'Proxima Nova Rg', sans-serif;
+  color: #fff; }
+
+.bottom:after {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5%; }
+
+.bottom:before {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5%; }
+
+.user-box {
+  height: 425px;
+  width: 300px;
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3%; }
+  .user-box .head {
+    background: #b47859;
+    border-top: 1px solid #d6b37f;
+    border-bottom: 1px solid #423979;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px; }
+    .user-box .head span {
+      display: block;
+      text-align: center;
+      margin-top: 7%; }
+  .user-box .profile-wrapper {
+    display: flex;
+    align-items: center;
+    background: url(../../image/profile-bg.png) no-repeat;
+    height: 150px;
+    width: 300px;
+    border-bottom: 1px solid #685693; }
+  .user-box .statistic {
+    /*display: flex;
+		flex-direction: column;*/
+    padding: 25px 25px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+    .user-box .statistic .info {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px; }
+      .user-box .statistic .info div {
+        width: 50%;
+        height: 6%;
+        padding: 11px 0 16px;
+        text-align: center; }
+        .user-box .statistic .info div .primary {
+          font: 16px 'Proxima Nova Rg', sans-serif; }
+        .user-box .statistic .info div span {
+          display: block;
+          font: 30px 'Proxima Nova Lt', sans-serif; }
+    .user-box .statistic a {
+      background: rgba(255, 255, 255, 0.4);
+      text-decoration: none;
+      font: 20px 'Proxima Nova Bd', sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      height: 59px;
+      width: 100%;
+      margin: auto;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+      border-bottom-left-radius: 9px;
+      border-bottom-right-radius: 9px;
+      display: block;
+      text-align: center;
+      padding-top: 8%; }
+
+.info .first {
+  border-right: 1px solid rgba(255, 255, 255, 0.4); }
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 31px; }
+  .profile .foto {
+    background: url(../../image/foto.png) no-repeat;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 4px solid #cecac5; }
+  .profile .info-wrapper {
+    padding-left: 10px; }
+    .profile .info-wrapper span {
+      display: block;
+      font: 20px 'Proxima Nova Bd', sans-serif;
+      text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+      margin-bottom: 5px; }
+    .profile .info-wrapper div {
+      background: url(../../image/icons.png) no-repeat -20px -247px;
+      width: 11px;
+      height: 14px;
+      display: inline-block;
+      margin-right: 4px; }
+    .profile .info-wrapper a {
+      font: 16px 'Proxima Nova Rg', sans-serif;
+      color: #fff;
+      display: inline-block;
+      text-decoration: none; }
+
+.download {
+  height: 388px;
+  width: 300px;
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3%; }
+  .download .head {
+    background: #346c49;
+    border-top: 1px solid #9dbeb3;
+    border-bottom: 1px solid #423979;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px; }
+    .download .head span {
+      display: block;
+      text-align: center;
+      margin-top: 7%; }
+  .download .down-wrapper {
+    padding: 40px 68px 43px 68px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+    .download .down-wrapper .down {
+      background: url(../../image/progress.png) no-repeat;
+      height: 164px;
+      width: 164px; }
+  .download .progress {
+    margin-top: 17%;
+    align-items: center;
+    /*padding: 0;*/ }
+    .download .progress .percent {
+      font: 30px 'Proxima Nova Lt', sans-serif;
+      display: block;
+      text-align: center; }
+    .download .progress span {
+      font: 16px 'Proxima Nova Rg', sans-serif;
+      display: block;
+      text-align: center; }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 273px;
+  margin: 50px; }
+  .buttons a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none; }
+  .buttons .button-1 {
+    background: #8e7e8f;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+  .buttons .button-2 {
+    background: #3d4d87;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+  .buttons .button-3 {
+    background: #416e8d;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+  .buttons .button-4 {
+    background: #346c49;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+
+.location {
+  height: 145px;
+  width: 298px;
+  margin: 50px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px; }
+  .location .head {
+    background: #9c8b65;
+    border-top: 1px solid #c9bc99;
+    border-bottom: 1px solid #423979;
+    font: 20px 'Proxima Nova Bd', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    height: 59px;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px; }
+    .location .head span {
+      margin-top: 7%;
+      display: block;
+      text-align: center; }
+  .location .loc-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 25px 2px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; }
+
+.loc {
+  display: flex;
+  align-items: center;
+  width: 78%;
+  padding: 29px 0 28px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2); }
+  .loc .icon {
+    background: url(../../image/icons.png) no-repeat -20px -203px;
+    width: 19px;
+    height: 24px;
+    margin-right: 4%; }
+  .loc span {
+    font: 16px 'Proxima Nova Rg', sans-serif; }
+
+.loc-2 {
+  padding: 29px 0 28px 0; }
+  .loc-2 .check {
+    background: url(../../image/icons.png) no-repeat -20px -159px;
+    width: 24px;
+    height: 24px; }
+
+/*@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Bd';
+    src: url('fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Skolar PE Rg';
+    src: url('fonts/SkolarPE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
